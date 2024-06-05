@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background: linear-gradient(150deg,#0084ff,#053a6b);
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: absolute;
+    background-color: #2e2e2e;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+button:hover {
+    background-color: #ffffffad;
+}
+
+.tela{
+    background-color: #fff;
+    height: 30px;
+    color: #000;
+    font-size: 20px;
+    text-align: end;
+    margin: 3px;
+}
